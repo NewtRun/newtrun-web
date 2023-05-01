@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "WotfardMedium";
+  src: local("Wotfard"),
+    url("./assets/fonts/wotfard/wotfard-medium-webfont.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WotfardRegular";
+  src: local("Wotfard"),
+    url("./assets/fonts/wotfard/wotfard-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WotfardLight";
+  src: local("Wotfard"),
+    url("./assets/fonts/wotfard/wotfard-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WotfardSemi";
+  src: local("Wotfard"),
+    url("./assets/fonts/wotfard/wotfard-semibold-webfont.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "WotfardBold";
+  src: local("Wotfard"),
+    url("./assets/fonts/wotfard/wotfard-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+}

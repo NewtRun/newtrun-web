@@ -1,0 +1,61 @@
+.pageOne {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(85.7deg, #0F0F0F 1.17%, #1B0E17 70.91%, #460A36 150.97%);
+}
+
+.gridBox {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "start start header header"
+        "main . sidebar sidebar"
+        "footer footer tail tail";
+
+    margin-top: 10%;
+    padding-left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+.textBoxOne {
+    text-align: center;
+    grid-area: start;
+
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 24px;
+    
+}
+
+.textBoxTwo {
+    text-align: center;
+    grid-area: sidebar;
+
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.textBoxThree {
+    text-align: center;
+    grid-area: footer;
+
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+
+@media (max-width: 600px) {
+ .textBoxOne{
+    font-size: 18px;
+ }   
+ .textBoxTwo {
+    font-size: 18px;
+ }
+ .textBoxThree{
+    font-size: 18px;
+ }
+}

@@ -1,0 +1,197 @@
+.pageTwo {
+    height: 800px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header "
+        "grid grid grid     "
+        "grid grid grid ";
+
+    /* background: linear-gradient(85.7deg, #0F0F0F 1.17%, #070311 69.67%, #090120 150.97%); */
+    /* background: linear-gradient(265.75deg, #0F0F0F 3.25%, #070311 48.26%, #090120 101.68%); */
+    /* background: linear-gradient(264.51deg, #0F0F0F 4.12%, #070311 65.76%, #090120 138.93%); */
+    background: linear-gradient(264.51deg, #0F0F0F 4.12%, #07050D 65.76%, #090120 138.93%);
+}
+
+.pageTwoHeader {
+
+    margin-top: 5%;
+    grid-area: header;
+    text-align: center;
+
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.pageTwoHeader span {
+
+    padding-inline: 5px;
+    color: #ffffff;
+    font-family: 'WotfardMedium', 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.description span {
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.pageGrid {
+    grid-area: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-one {
+    max-width: 250px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 300px;
+    min-width: 300px;
+    height: 300px;
+    padding: 35px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 1px rgba(6, 8, 116, 0.5);
+
+    backdrop-filter: blur(15px);
+}
+
+.container-one span {
+    color: #4164ff;
+    font-family: 'WotfardMedium', 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container-one p {
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.container-two span {
+    color: #4164ff;
+    font-family: 'WotfardMedium', 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container-two p {
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.container-three span {
+    color: #4164ff;
+    font-family: 'WotfardMedium', 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container-three p {
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.container-two {
+    max-width: 250px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 300px;
+    min-width: 300px;
+    height: 300px;
+    padding: 35px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 1px rgba(6, 8, 116, 0.5);
+
+    backdrop-filter: blur(15px);
+}
+
+
+.container-three {
+    max-width: 250px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 300px;
+    min-width: 300px;
+    height: 300px;
+    padding: 35px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 1px rgba(6, 8, 116, 0.5);
+
+    backdrop-filter: blur(15px);
+}
+
+@media (max-width: 800px) {
+    .pageTwo{
+        height: 1500px;
+    }
+
+    .pageGrid{
+        flex-direction: column;
+    }
+}
+
+/* .container-one {
+    grid-area: b1;
+    height: 400px;
+    width: 350px;
+
+    border: #4d4d4d 1px solid;
+    border-radius: 2%;
+
+    color: #ffffff;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+
+.container-two {
+    grid-area: b2;
+    height: 400px;
+    width: 350px;
+
+    border: #4d4d4d 1px solid;
+    border-radius: 2%;
+    color: #ffffff;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+
+.container-three {
+    grid-area: b3;
+
+    height: 400px;
+    width: 350px;
+
+    border: #4d4d4d 1px solid;
+    border-radius: 2%;
+    color: #ffffff;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 28px;
+} */
+
