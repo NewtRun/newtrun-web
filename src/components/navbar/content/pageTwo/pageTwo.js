@@ -17,20 +17,23 @@ function PageTwo() {
             <div className='pageGrid'>
                 <div className='container-one'>
                     <span>Trust</span>
-                    <p>A solution that empowers businesses to reliably verify professional
-                        artifacts of individuals and third party entities
+                    <p>
+                        A solution that empowers businesses to reliably verify professional
+                        artifacts of individuals and third party entities.
                     </p>
                 </div>
                 <div className='container-two'>
                     <span>Saftey</span>
-                    <p>A solution that empowers businesses to reliably verify professional
-                        artifacts of individuals and third party entities
+                    <p>
+                        A Platform that enables seamless digital verification for individuals
+                        through virtual means with data saftey and privacy.
                     </p>
                 </div>
                 <div className='container-three'>
                     <span>Validity</span>
-                    <p>Providing factual and accurate information validated through authentic 
-                        entities
+                    <p>
+                        Providing a secure and effective solution for verifying individuals
+                        with confidence, designed to meet the highest standards of validity and integrity..
                     </p>
                 </div>
             </div>

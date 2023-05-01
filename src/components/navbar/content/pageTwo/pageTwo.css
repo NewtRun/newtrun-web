@@ -155,6 +155,10 @@
     .pageGrid{
         flex-direction: column;
     }
+
+    .description {
+        font-size: 14px;
+    }
 }
 
 /* .container-one {
