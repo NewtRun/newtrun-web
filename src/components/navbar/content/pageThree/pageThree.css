@@ -1,0 +1,62 @@
+.pageThree {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(256.23deg, rgba(5, 0, 255, 0.2) 17.9%, rgba(235, 58, 251, 0.2) 65.66%),
+     linear-gradient(253.97deg, #0F0F0F -9.67%, #07050D 5.9%, #090120 79.94%);
+}
+
+.gridBox {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "start start header header"
+        "main . sidebar sidebar"
+        "footer footer tail tail";
+
+    margin-top: 10%;
+    padding-left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+.textBoxOne {
+    text-align: center;
+    grid-area: start;
+
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 24px;
+    
+}
+
+.textBoxTwo {
+    text-align: center;
+    grid-area: sidebar;
+
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.textBoxThree {
+    text-align: center;
+    grid-area: footer;
+
+    color: #9BA4B5;
+    font-family: 'WotfardRegular', 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+
+@media (max-width: 600px) {
+ .textBoxOne{
+    font-size: 18px;
+ }   
+ .textBoxTwo {
+    font-size: 18px;
+ }
+ .textBoxThree{
+    font-size: 18px;
+ }
+}
