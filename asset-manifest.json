@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.98cd6e53.css",
-    "main.js": "/static/js/main.192d8147.js",
+    "main.css": "/static/css/main.1aae4c0f.css",
+    "main.js": "/static/js/main.8ea2d224.js",
     "static/js/787.43c4a08d.chunk.js": "/static/js/787.43c4a08d.chunk.js",
     "static/media/Ovec.gif": "/static/media/Ovec.7d70931dae16e5c518b0.gif",
     "static/media/wotfard-medium-webfont.ttf": "/static/media/wotfard-medium-webfont.4e3c428b552df5a4b943.ttf",
@@ -10,12 +10,12 @@
     "static/media/wotfard-light-webfont.ttf": "/static/media/wotfard-light-webfont.833e8e949dce823b829a.ttf",
     "static/media/wotfard-bold-webfont.ttf": "/static/media/wotfard-bold-webfont.101d854c20435a0c021d.ttf",
     "index.html": "/index.html",
-    "main.98cd6e53.css.map": "/static/css/main.98cd6e53.css.map",
-    "main.192d8147.js.map": "/static/js/main.192d8147.js.map",
+    "main.1aae4c0f.css.map": "/static/css/main.1aae4c0f.css.map",
+    "main.8ea2d224.js.map": "/static/js/main.8ea2d224.js.map",
     "787.43c4a08d.chunk.js.map": "/static/js/787.43c4a08d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98cd6e53.css",
-    "static/js/main.192d8147.js"
+    "static/css/main.1aae4c0f.css",
+    "static/js/main.8ea2d224.js"
   ]
 }
